@@ -15,9 +15,6 @@ from azure.mgmt.media.models import *
 
 from azure.storage.blob import BlockBlobService
 
-#pip install pyjwt
-import jwt
-
 class Program:
     def __init__(self):
         # Read the settings from config
